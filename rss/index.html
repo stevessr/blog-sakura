@@ -6,7 +6,7 @@
   
   <title itemprop="name">rss | stevessr</title>
   
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/images/favicon.ico">
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/honjun/cdn@1.8/assets/img/favicon.ico">
   
   <meta http-equiv="x-dns-prefetch-control" content="on">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="all">
@@ -381,30 +381,29 @@
       
 
 
-    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
+  <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link rel="stylesheet" href="//unpkg.com/@waline/client@v2/dist/waline.css"/>
     <div id="waline"></div>
-    <style>
-    #waline textarea {
-        box-sizing: border-box;
-        background: url("https://gitee.com/cungudafa/source/raw/master/img/gif/Sitich/Sitich2.gif") 100% 100% no-repeat;
-    }
-    </style>
-    <script>
-        Waline({
+      <script type="module" >
+        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+        init({
               el: '#waline',
               serverURL: 'https://waline.alis-st.repl.co',
               pageSize: '10',
               lang: 'zh-CN',
-              requiredFields: ['nick','mail'], //设置必填项
-              placeholder: '祝开开心心！',
-              visitor: 'true',
+              requiredMeta: ['nick','mail'], //设置必填项
+              locale.placeholder: '祝开开心心！',
+              pageview: 'true',
               emoji: [
-                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
-                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
-                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tieba',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/bilibili',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/weibo',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/alus',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/bmoji',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/qq',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-emoji'
               ],
-              avatar: 'mp',
-              dark: 'auto',
+              dark: 'auto'
             });
     </script>
 
@@ -510,7 +509,7 @@
 <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="/js/zoom.min.js"></script>
 <script type="text/javascript" src="/js/sakura-app.js"></script>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script> 网址已经失效-->
 <script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
 <script src="/js/botui.js"></script>
 <!-- 不蒜子 网页计数器 -->
