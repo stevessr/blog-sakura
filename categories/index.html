@@ -73,7 +73,7 @@
   <figure id="centerbg" class="centerbg">
     <div class="focusinfo no-select">
       <div class="header-tou">
-        <a href="https://sakura.stevessr-github-io.pages.dev">
+        <a target="_blank" rel="noopener" href="https://sakura.stevessr-github-io.pages.dev">
           <img src="https://cdn.aaca.eu.org/api/v1/buckets/bucket1/objects/download?preview=true&prefix=aW1nLzg5NjQ1MzcyLnBuZw==&version_id=4ba1136c-9af9-40d3-b88b-09550aa37810">
         </a>
       </div>
@@ -391,9 +391,10 @@
               serverURL: 'https://waline.alis-st.repl.co',
               pageSize: '10',
               lang: 'zh-CN',
-              requiredMeta: ['nick','mail'], //设置必填项
-              locale.placeholder: '祝开开心心！',
-              pageview: 'true',
+              requiredMeta: ['nick','mail'], 
+              locale:{placeholder: "祝开开心心"},
+              pageview: true,
+              comment: true,
               emoji: [
                   'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tieba',
                   'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/bilibili',
@@ -436,7 +437,7 @@
           <div class="meta">
             <span class="title">Author</span>
             <h3 itemprop="name">
-            <a href="https://sakura.stevessr-github-io.pages.dev" itemprop="url" rel="author">stevessr</a>
+            <a target="_blank" href="https://sakura.stevessr-github-io.pages.dev" itemprop="url" rel="author noopener">stevessr</a>
             </h3>
           </div>
         </div>
@@ -477,7 +478,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2023 stevessr<br>
+      &copy; 2024 stevessr<br>
       powered_by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
@@ -489,7 +490,7 @@
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/wordpress-rotating-ball-o.svg">
         <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
       </div>
-      <p style="color: #666666;">&copy 2018</p>
+      <p style="color: #666666;">&copy 2018 to 2023</p>
     </div>
     <div class="footer-device">
     <p style="font-family: 'Ubuntu', sans-serif;">
@@ -512,6 +513,7 @@
 <!--<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script> 网址已经失效-->
 <script src='//unpkg.com/valine@1.3.4/dist/Valine.min.js'></script>
 <script src="/js/botui.js"></script>
+<script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
 <!-- 不蒜子 网页计数器 -->
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->

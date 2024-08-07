@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
   
-  <title itemprop="name">Tag: 电信 | stevessr</title>
+  <title itemprop="name">Nodejs | stevessr</title>
   
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/honjun/cdn@1.8/assets/img/favicon.ico">
   
@@ -372,163 +372,175 @@
   </div>
 </header>
 
-      
+      <link rel="stylesheet" type="text/css" href="/css/sharejs.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
 <div class="pattern-center-blank"></div>
-<div class="pattern-center ">
-  <div class="pattern-attachment-img">
-    <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="电信.img" class="lazyload" onerror="imgError(this,3)" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;">
-  </div>
-  <header class="pattern-header ">
-    <h1 class="cat-title">电信</h1>
-  </header>
-</div>
+
 <div id="content" class="site-content">
   <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
+      <article id="post-1" class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+        <div class="toc"></div>
+        <!--<div class="toc-entry-content"><!-- 套嵌目录使用（主要为了支援评论）-->
+        
+          <header class="entry-header">
+            <h1 class="entry-title">Nodejs</h1>
+            <p class="entry-census">stevessr&nbsp;·&nbsp;2024-8-7&nbsp;·&nbsp;<span id="busuanzi_value_page_pv"></span>次阅读</p></p>
+
+            <hr>
+          </header>
+        
+        <div class="entry-content">
+          <h1 id="在linux上安装Node-js"><a href="#在linux上安装Node-js" class="headerlink" title="在linux上安装Node.js"></a>在linux上安装Node.js</h1><h2 id="一、安装nvm"><a href="#一、安装nvm" class="headerlink" title="一、安装nvm"></a>一、安装nvm</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># installs nvm (Node Version Manager)</span></span><br><span class="line">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!--不行的自己想办法--&gt;</span></span><br></pre></td></tr></table></figure>
+
+<!--笔者是这样的curl -o- https://fastgit.cc/raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash-->
+
+<h2 id="二、加入环境变量"><a href="#二、加入环境变量" class="headerlink" title="二、加入环境变量"></a>二、加入环境变量</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">export</span> NVM_DIR=<span class="string">&quot;<span class="variable">$HOME</span>/.nvm&quot;</span></span><br><span class="line">[ -s <span class="string">&quot;<span class="variable">$NVM_DIR</span>/nvm.sh&quot;</span> ] &amp;&amp; \. <span class="string">&quot;<span class="variable">$NVM_DIR</span>/nvm.sh&quot;</span>  <span class="comment"># This loads nvm</span></span><br><span class="line">[ -s <span class="string">&quot;<span class="variable">$NVM_DIR</span>/bash_completion&quot;</span> ] &amp;&amp; \. <span class="string">&quot;<span class="variable">$NVM_DIR</span>/bash_completion&quot;</span>  <span class="comment"># This loads nvm bash_completion</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<!--这是我的-->
+
+<h2 id="三、选择版本"><a href="#三、选择版本" class="headerlink" title="三、选择版本"></a>三、选择版本</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install <span class="variable">$version</span></span><br></pre></td></tr></table></figure>
+
+<p>$version代表你想安装的版本</p>
+<p>以20为例</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install 20</span><br></pre></td></tr></table></figure>
+
+<h4 id="四、检查"><a href="#四、检查" class="headerlink" title="四、检查"></a>四、检查</h4><p>nvm</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm --version</span><br></pre></td></tr></table></figure>
+
+<p>node.js</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node --version</span><br></pre></td></tr></table></figure>
+
+<p>npm</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm --version</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>推荐的nodejs 包管理器</th>
+<th></th>
+<th></th>
+<th>npm包形式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>yarn</td>
+<td>corepack prepare yarn@stable –activate</td>
+<td>corepack prepare yarn@<version> –activate</td>
+<td>npm install –global yarn</td>
+</tr>
+<tr>
+<td>pnpm</td>
+<td>curl -fsSL -qO- <a target="_blank" rel="noopener" href="https://get.pnpm.io/install.sh">https://get.pnpm.io/install.sh</a> | bash</td>
+<td>wget -qO- <a target="_blank" rel="noopener" href="https://get.pnpm.io/install.sh">https://get.pnpm.io/install.sh</a> |bash</td>
+<td>npm install –global pnpm</td>
+</tr>
+<tr>
+<td>bun</td>
+<td>curl -fsSL <a target="_blank" rel="noopener" href="https://bun.sh/install">https://bun.sh/install</a> | bash</td>
+<td>wget -qO- <a target="_blank" rel="noopener" href="https://bun.sh/install">https://bun.sh/install</a> | bash</td>
+<td>npm install –global bun</td>
+</tr>
+</tbody></table>
+
+        </div>
+        <!-- .entry-content -->
+        <div class="single-reward">
+          <div class="reward-open">赏
+            <div class="reward-main">
+              <ul class="reward-row">
+                <li class="alipay-code"><img src="https://cdn.aaca.eu.org/api/v1/buckets/bucket1/objects/download?preview=true&prefix=aW1nLzg5NjQ1MzcyLnBuZw==&version_id=4ba1136c-9af9-40d3-b88b-09550aa37810"></li>
+                <li class="wechat-code"><img src="https://cdn.aaca.eu.org/api/v1/buckets/bucket1/objects/download?preview=true&prefix=aW1nLzg5NjQ1MzcyLnBuZw==&version_id=4ba1136c-9af9-40d3-b88b-09550aa37810"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
+        <footer class="post-footer">
+          <div class="post-lincenses"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="nofollow"><i class="fa fa-creative-commons" aria-hidden="true"></i> 知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a></div>
+          <div class="post-tags">
+          </div>
+          <div class="post-share">
+            <div class="social-share sharehidden share-component"></div>
+            <i class="iconfont show-share icon-forward"></i>
+          </div>
+        </footer><!-- .entry-footer -->
+      </article>
+      <!-- #post-## -->
+      <div class="toc" style="background: none;"></div>
+      <section class="post-squares nextprev">
+        
+        
+          
+            <div class="post-nepre full next">
+          
+            <a href="/2023/07/16/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87%E6%8E%A5%E5%8F%A3API%E6%90%9C%E9%9B%86/" rel="next">
+              <div class="background">
+                <img class="lazyload" src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/loader/orange.progress-bar-stripe-loader.svg" data-src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg" style="width: 100%; height: 100%; object-fit: cover; pointer-events: none;" onerror="imgError(this,3)" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg">
+              </div>
+              <span class="label">
+              Next Post</span>
+              <div class="info">
+                <h3>
+                随机图片接口API搜集</h3>
+                <hr>
+              </div>
+            </a>
+          </div>
+        
+      </section>
       
-  <!-- 首页默认取最最新文章集 -->
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%9B%9B%E5%A4%A7%E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86%20by%20%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.aaca.eu.org/api/v1/buckets/bucket1/objects/download?preview=true&amp;prefix=aW1nLzg5NjQ1MzcyLnBuZw==&amp;version_id=4ba1136c-9af9-40d3-b88b-09550aa37810" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%9B%9B%E5%A4%A7%E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86%20by%20%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B/">
-    中国四大电信运营商</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2023-7-14</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%9B%9B%E5%A4%A7%E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86%20by%20%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.aaca.eu.org/api/v1/buckets/bucket1/objects/download?preview=true&amp;prefix=aW1nLzg5NjQ1MzcyLnBuZw==&amp;version_id=4ba1136c-9af9-40d3-b88b-09550aa37810" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/">
-    中国十大骨干网 by 野猫行天下</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2023-7-14</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E7%9F%A5%E4%B9%8E/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.aaca.eu.org/api/v1/buckets/bucket1/objects/download?preview=true&amp;prefix=aW1nLzg5NjQ1MzcyLnBuZw==&amp;version_id=4ba1136c-9af9-40d3-b88b-09550aa37810" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E7%9F%A5%E4%B9%8E/">
-    中国十大骨干网 by 野猫行天下</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2023-7-14</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E7%9F%A5%E4%B9%8E/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
-    <article class="post post-list" itemscope="" itemtype="https://schema.org/BlogPosting">
-  <div class="post-entry">
-    <div class="feature">
-      <a href="/2023/07/14/%E8%B5%B7%E5%BA%95%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F,%E4%B8%8E%E5%90%8E%E4%B8%96...%20by%20%E8%BF%90%E8%90%A5%E5%95%86%E6%B1%82%E8%81%8C/">
-        <div class="overlay">
-          <i class="iconfont icon-text">
-          </i>
-        </div>
-        <img width="150" height="150" src="https://cdn.aaca.eu.org/api/v1/buckets/bucket1/objects/download?preview=true&amp;prefix=aW1nLzg5NjQ1MzcyLnBuZw==&amp;version_id=4ba1136c-9af9-40d3-b88b-09550aa37810" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" >
-      </a>
-    </div>
-    <h1 class="entry-title">
-    <a href="/2023/07/14/%E8%B5%B7%E5%BA%95%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F,%E4%B8%8E%E5%90%8E%E4%B8%96...%20by%20%E8%BF%90%E8%90%A5%E5%95%86%E6%B1%82%E8%81%8C/">
-    起底三大运营商的前世今生,与后世... by 运营商求职</a>
-    </h1>
-    <div class="p-time">
-      <i class="iconfont icon-time">
-      </i>
-    2023-7-14</div>
-    <p>
-    </p>
-    <footer class="entry-footer">
-      <div class="post-more">
-        <a href="/2023/07/14/%E8%B5%B7%E5%BA%95%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F,%E4%B8%8E%E5%90%8E%E4%B8%96...%20by%20%E8%BF%90%E8%90%A5%E5%95%86%E6%B1%82%E8%81%8C/">
-          <i class="iconfont icon-caidan">
-          </i>
-        </a>
-      </div>
-    </footer>
-  </div>
-  <hr>
-</article>
-  
 
 
-      <div class="clearer">
-      </div>
-    </main>
-    <!--  -->
-    
-  </div>
+  <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link rel="stylesheet" href="//unpkg.com/@waline/client@v2/dist/waline.css"/>
+    <div id="waline"></div>
+      <script type="module" >
+        import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+        init({
+              el: '#waline',
+              serverURL: 'https://waline.alis-st.repl.co',
+              pageSize: '10',
+              lang: 'zh-CN',
+              requiredMeta: ['nick','mail'], 
+              locale:{placeholder: "祝开开心心"},
+              pageview: true,
+              comment: true,
+              emoji: [
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tieba',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/bilibili',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/weibo',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/alus',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/bmoji',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/qq',
+                  'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.1.0/tw-emoji'
+              ],
+              dark: 'auto'
+            });
+    </script>
+
+
+      <section class="author-profile">
+        <div class="info" itemprop="author" itemscope="" itemtype="https://schema.org/Person">
+          <a href="" class="profile gravatar"><img src="" itemprop="image" alt="stevessr" height="70" width="70"></a>
+          <div class="meta">
+            <span class="title">Author</span>
+            <h3 itemprop="name">
+            <a href="" itemprop="url" rel="author">stevessr</a>
+            </h3>
+          </div>
+        </div>
+        <hr>
+        <p><i class="iconfont icon-write"></i></p>
+      </section>
+    </main><!-- #main -->
+  </div><!-- #primary -->
 </div>
+
+
+
     </div>    
     <div class="ins-search">
     <div class="ins-search-mask"></div>
