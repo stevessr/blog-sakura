@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>stevessr</title>
+  
+  <subtitle>sub标题</subtitle>
+  <link href="https://aaca.eu.org/atom.xml" rel="self"/>
+  
+  <link href="https://aaca.eu.org/"/>
+  <updated>2025-05-17T09:04:11.402Z</updated>
+  <id>https://aaca.eu.org/</id>
+  
+  <author>
+    <name>stevessr</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>黑豹x2刷机</title>
+    <link href="https://aaca.eu.org/2025/03/10/%E9%BB%91%E8%B1%B9x2%E5%88%B7%E6%9C%BA/"/>
+    <id>https://aaca.eu.org/2025/03/10/%E9%BB%91%E8%B1%B9x2%E5%88%B7%E6%9C%BA/</id>
+    <published>2025-03-10T03:40:38.000Z</published>
+    <updated>2025-05-17T09:04:11.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;刷入armbian&quot;&gt;&lt;a href=&quot;#刷入armbian&quot; class=&quot;headerlink&quot; title=&quot;刷入armbian&quot;&gt;&lt;/a&gt;刷入armbian&lt;/h1&gt;&lt;p&gt;从&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="服务器" scheme="https://aaca.eu.org/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="家庭网络" scheme="https://aaca.eu.org/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="Linux" scheme="https://aaca.eu.org/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/Linux/"/>
+    
+    <category term="折腾" scheme="https://aaca.eu.org/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/Linux/%E6%8A%98%E8%85%BE/"/>
+    
+    <category term="嵌入式" scheme="https://aaca.eu.org/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/Linux/%E6%8A%98%E8%85%BE/%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="Linux" scheme="https://aaca.eu.org/tags/Linux/"/>
+    
+    <category term="黑豹x2" scheme="https://aaca.eu.org/tags/%E9%BB%91%E8%B1%B9x2/"/>
+    
+    <category term="Armbian" scheme="https://aaca.eu.org/tags/Armbian/"/>
+    
+    <category term="刷机教程" scheme="https://aaca.eu.org/tags/%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="家庭服务器" scheme="https://aaca.eu.org/tags/%E5%AE%B6%E5%BA%AD%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="旁路由" scheme="https://aaca.eu.org/tags/%E6%97%81%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="Amlogic" scheme="https://aaca.eu.org/tags/Amlogic/"/>
+    
+    <category term="RKDevTool" scheme="https://aaca.eu.org/tags/RKDevTool/"/>
+    
+    <category term="docker" scheme="https://aaca.eu.org/tags/docker/"/>
+    
+    <category term="alist" scheme="https://aaca.eu.org/tags/alist/"/>
+    
+    <category term="webssh" scheme="https://aaca.eu.org/tags/webssh/"/>
+    
+    <category term="LibreChat" scheme="https://aaca.eu.org/tags/LibreChat/"/>
+    
+    <category term="SearXNG" scheme="https://aaca.eu.org/tags/SearXNG/"/>
+    
+    <category term="n8n" scheme="https://aaca.eu.org/tags/n8n/"/>
+    
+    <category term="Anything-LLM" scheme="https://aaca.eu.org/tags/Anything-LLM/"/>
+    
+    <category term="OpenWebUI" scheme="https://aaca.eu.org/tags/OpenWebUI/"/>
+    
+    <category term="NPU" scheme="https://aaca.eu.org/tags/NPU/"/>
+    
+    <category term="RKNN" scheme="https://aaca.eu.org/tags/RKNN/"/>
+    
+    <category term="LLM" scheme="https://aaca.eu.org/tags/LLM/"/>
+    
+    <category term="大模型" scheme="https://aaca.eu.org/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B/"/>
+    
+    <category term="node" scheme="https://aaca.eu.org/tags/node/"/>
+    
+    <category term="rust" scheme="https://aaca.eu.org/tags/rust/"/>
+    
+    <category term="python" scheme="https://aaca.eu.org/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 Rufus 将 FydeOS 写入磁盘</title>
+    <link href="https://aaca.eu.org/2025/01/05/FydeOS%E5%86%99%E5%85%A5%E7%A3%81%E7%9B%98/"/>
+    <id>https://aaca.eu.org/2025/01/05/FydeOS%E5%86%99%E5%85%A5%E7%A3%81%E7%9B%98/</id>
+    <published>2025-01-05T06:45:00.000Z</published>
+    <updated>2025-05-17T09:04:11.400Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;使用&lt;a href=&quot;https://rufus.ie/zh/&quot;&gt;Rufus - 轻松创建 USB 启动盘&lt;/a&gt;&lt;br&gt;在&lt;a href=&quot;https://fydeos.com/download/&quot;&gt;下载 -</summary>
+        
+      
+    
+    
+    
+    <category term="操作系统安装" scheme="https://aaca.eu.org/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="工具指南" scheme="https://aaca.eu.org/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85/%E5%B7%A5%E5%85%B7%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="FydeOS" scheme="https://aaca.eu.org/tags/FydeOS/"/>
+    
+    <category term="操作系统" scheme="https://aaca.eu.org/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="启动盘制作" scheme="https://aaca.eu.org/tags/%E5%90%AF%E5%8A%A8%E7%9B%98%E5%88%B6%E4%BD%9C/"/>
+    
+    <category term="Rufus" scheme="https://aaca.eu.org/tags/Rufus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux (Debian 系) 下配置 aria2</title>
+    <link href="https://aaca.eu.org/2025/01/05/Linux(debian%E7%B3%BB)%E4%B8%8B%E9%85%8D%E7%BD%AEaria2/"/>
+    <id>https://aaca.eu.org/2025/01/05/Linux(debian%E7%B3%BB)%E4%B8%8B%E9%85%8D%E7%BD%AEaria2/</id>
+    <published>2025-01-05T06:45:00.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装aria2&quot;&gt;&lt;a href=&quot;#安装aria2&quot; class=&quot;headerlink&quot; title=&quot;安装aria2&quot;&gt;&lt;/a&gt;安装aria2&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;sudo apt install</summary>
+        
+      
+    
+    
+    
+    <category term="系统配置" scheme="https://aaca.eu.org/categories/%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="下载工具" scheme="https://aaca.eu.org/categories/%E7%B3%BB%E7%BB%9F%E9%85%8D%E7%BD%AE/%E4%B8%8B%E8%BD%BD%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="aria2" scheme="https://aaca.eu.org/tags/aria2/"/>
+    
+    <category term="Linux" scheme="https://aaca.eu.org/tags/Linux/"/>
+    
+    <category term="配置" scheme="https://aaca.eu.org/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="自启动" scheme="https://aaca.eu.org/tags/%E8%87%AA%E5%90%AF%E5%8A%A8/"/>
+    
+    <category term="RPC" scheme="https://aaca.eu.org/tags/RPC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树莓派初始化与配置指南</title>
+    <link href="https://aaca.eu.org/2025/01/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%86%8D%E6%AC%A1%E5%88%9D%E5%A7%8B%E5%8C%96/"/>
+    <id>https://aaca.eu.org/2025/01/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%86%8D%E6%AC%A1%E5%88%9D%E5%A7%8B%E5%8C%96/</id>
+    <published>2025-01-05T06:45:00.000Z</published>
+    <updated>2025-05-17T09:04:11.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;yet-again&quot;&gt;&lt;a href=&quot;#yet-again&quot; class=&quot;headerlink&quot; title=&quot;yet , again&quot;&gt;&lt;/a&gt;yet , again&lt;/h1&gt;&lt;p&gt;使用官方raspberry pi OS </summary>
+        
+      
+    
+    
+    
+    <category term="树莓派配置" scheme="https://aaca.eu.org/categories/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="开源工具" scheme="https://aaca.eu.org/categories/%E6%A0%91%E8%8E%93%E6%B4%BE%E9%85%8D%E7%BD%AE/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="树莓派" scheme="https://aaca.eu.org/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+    <category term="Raspberry Pi" scheme="https://aaca.eu.org/tags/Raspberry-Pi/"/>
+    
+    <category term="Linux 配置" scheme="https://aaca.eu.org/tags/Linux-%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="系统更新" scheme="https://aaca.eu.org/tags/%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0/"/>
+    
+    <category term="工具安装" scheme="https://aaca.eu.org/tags/%E5%B7%A5%E5%85%B7%E5%AE%89%E8%A3%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>终端小结</title>
+    <link href="https://aaca.eu.org/2025/01/04/%E7%BB%88%E7%AB%AF%E5%B0%8F%E7%BB%93/"/>
+    <id>https://aaca.eu.org/2025/01/04/%E7%BB%88%E7%AB%AF%E5%B0%8F%E7%BB%93/</id>
+    <published>2025-01-04T20:00:00.000Z</published>
+    <updated>2025-05-17T09:04:11.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;原作为stevessr&quot;&gt;&lt;a href=&quot;#原作为stevessr&quot; class=&quot;headerlink&quot; title=&quot;原作为stevessr&quot;&gt;&lt;/a&gt;原作为stevessr&lt;/h1&gt;&lt;h2 id=&quot;同样与linux-do论坛上载有&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="开发工具" scheme="https://aaca.eu.org/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="终端" scheme="https://aaca.eu.org/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E7%BB%88%E7%AB%AF/"/>
+    
+    <category term="开源项目" scheme="https://aaca.eu.org/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E7%BB%88%E7%AB%AF/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="技术文档" scheme="https://aaca.eu.org/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E7%BB%88%E7%AB%AF/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/"/>
+    
+    
+    <category term="终端仿真器" scheme="https://aaca.eu.org/tags/%E7%BB%88%E7%AB%AF%E4%BB%BF%E7%9C%9F%E5%99%A8/"/>
+    
+    <category term="开源工具" scheme="https://aaca.eu.org/tags/%E5%BC%80%E6%BA%90%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="跨平台开发" scheme="https://aaca.eu.org/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="开发者工具" scheme="https://aaca.eu.org/tags/%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装comfyui</title>
+    <link href="https://aaca.eu.org/2024/10/02/comfyui/"/>
+    <id>https://aaca.eu.org/2024/10/02/comfyui/</id>
+    <published>2024-10-02T05:12:37.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;先安装python&quot;&gt;&lt;a href=&quot;#先安装python&quot; class=&quot;headerlink&quot; title=&quot;先安装python&quot;&gt;&lt;/a&gt;先安装python&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;cmd&quot;&gt;winget install</summary>
+        
+      
+    
+    
+    
+    <category term="Software Installation" scheme="https://aaca.eu.org/categories/Software-Installation/"/>
+    
+    <category term="UI Development" scheme="https://aaca.eu.org/categories/Software-Installation/UI-Development/"/>
+    
+    <category term="Python Tools" scheme="https://aaca.eu.org/categories/Software-Installation/UI-Development/Python-Tools/"/>
+    
+    <category term="Open Source" scheme="https://aaca.eu.org/categories/Software-Installation/UI-Development/Python-Tools/Open-Source/"/>
+    
+    
+    <category term="Installation Guide" scheme="https://aaca.eu.org/tags/Installation-Guide/"/>
+    
+    <category term="ComfyUI" scheme="https://aaca.eu.org/tags/ComfyUI/"/>
+    
+    <category term="Python" scheme="https://aaca.eu.org/tags/Python/"/>
+    
+    <category term="Git" scheme="https://aaca.eu.org/tags/Git/"/>
+    
+    <category term="Visual Studio Build Tools" scheme="https://aaca.eu.org/tags/Visual-Studio-Build-Tools/"/>
+    
+    <category term="Rust" scheme="https://aaca.eu.org/tags/Rust/"/>
+    
+    <category term="Pytorch" scheme="https://aaca.eu.org/tags/Pytorch/"/>
+    
+    <category term="Command Line" scheme="https://aaca.eu.org/tags/Command-Line/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Debiantogo</title>
+    <link href="https://aaca.eu.org/2024/09/25/debiantogo/"/>
+    <id>https://aaca.eu.org/2024/09/25/debiantogo/</id>
+    <published>2024-09-25T18:06:18.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;#前言
+我为什么要折腾Debian to Go 呢?
+才不是因为Arch to go 失败了。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;过程&quot;&gt;&lt;a href=&quot;#过程&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="debian" scheme="https://aaca.eu.org/categories/debian/"/>
+    
+    <category term="linux" scheme="https://aaca.eu.org/categories/debian/linux/"/>
+    
+    <category term="to go" scheme="https://aaca.eu.org/categories/debian/linux/to-go/"/>
+    
+    
+    <category term="debian" scheme="https://aaca.eu.org/tags/debian/"/>
+    
+    <category term="linux" scheme="https://aaca.eu.org/tags/linux/"/>
+    
+    <category term="to go" scheme="https://aaca.eu.org/tags/to-go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Doh可用</title>
+    <link href="https://aaca.eu.org/2024/09/21/doh%E5%8F%AF%E7%94%A8/"/>
+    <id>https://aaca.eu.org/2024/09/21/doh%E5%8F%AF%E7%94%A8/</id>
+    <published>2024-09-21T16:46:06.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一、什么是doh&quot;&gt;&lt;a href=&quot;#一、什么是doh&quot; class=&quot;headerlink&quot; title=&quot;一、什么是doh&quot;&gt;&lt;/a&gt;一、什么是doh&lt;/h1&gt;&lt;p&gt;参考 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="doh" scheme="https://aaca.eu.org/categories/doh/"/>
+    
+    <category term="available" scheme="https://aaca.eu.org/categories/doh/available/"/>
+    
+    
+    <category term="doh" scheme="https://aaca.eu.org/tags/doh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Htmlchart</title>
+    <link href="https://aaca.eu.org/2024/09/03/htmlchart/"/>
+    <id>https://aaca.eu.org/2024/09/03/htmlchart/</id>
+    <published>2024-09-03T01:00:36.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre&gt;&lt;code&gt;$spider@hand: [log]手动爬
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;表格1&quot;&gt;&lt;a href=&quot;#表格1&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="chart" scheme="https://aaca.eu.org/categories/chart/"/>
+    
+    <category term="html" scheme="https://aaca.eu.org/categories/chart/html/"/>
+    
+    <category term="codeing" scheme="https://aaca.eu.org/categories/chart/html/codeing/"/>
+    
+    
+    <category term="chart" scheme="https://aaca.eu.org/tags/chart/"/>
+    
+    <category term="html" scheme="https://aaca.eu.org/tags/html/"/>
+    
+    <category term="codeing" scheme="https://aaca.eu.org/tags/codeing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随机图片接口API搜集</title>
+    <link href="https://aaca.eu.org/2023/07/16/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87%E6%8E%A5%E5%8F%A3API%E6%90%9C%E9%9B%86/"/>
+    <id>https://aaca.eu.org/2023/07/16/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87%E6%8E%A5%E5%8F%A3API%E6%90%9C%E9%9B%86/</id>
+    <published>2023-07-16T06:53:57.000Z</published>
+    <updated>2025-05-17T09:04:11.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;随机图片接口API搜集&quot;&gt;&lt;a href=&quot;#随机图片接口API搜集&quot; class=&quot;headerlink&quot; title=&quot;随机图片接口API搜集&quot;&gt;&lt;/a&gt;随机图片接口API搜集&lt;/h1&gt;
+
+
+&lt;h2 id=&quot;Dmoe&quot;&gt;&lt;a href=&quot;#Dmoe&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>spytify</title>
+    <link href="https://aaca.eu.org/2023/07/16/spytify/"/>
+    <id>https://aaca.eu.org/2023/07/16/spytify/</id>
+    <published>2023-07-16T06:35:56.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Spytify——开源的spotify-音乐自动录制器（时间1：1）&quot;&gt;&lt;a href=&quot;#Spytify——开源的spotify-音乐自动录制器（时间1：1）&quot; class=&quot;headerlink&quot; title=&quot;Spytify——开源的spotify</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="资源" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/%E8%B5%84%E6%BA%90/"/>
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="spotify" scheme="https://aaca.eu.org/tags/spotify/"/>
+    
+    <category term="资源" scheme="https://aaca.eu.org/tags/%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sakura</title>
+    <link href="https://aaca.eu.org/2023/07/16/sakura/"/>
+    <id>https://aaca.eu.org/2023/07/16/sakura/</id>
+    <published>2023-07-16T04:31:28.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;原作者文档：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>中国四大电信运营商</title>
+    <link href="https://aaca.eu.org/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%9B%9B%E5%A4%A7%E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86%20by%20%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B/"/>
+    <id>https://aaca.eu.org/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%9B%9B%E5%A4%A7%E7%94%B5%E4%BF%A1%E8%BF%90%E8%90%A5%E5%95%86%20by%20%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B/</id>
+    <published>2023-07-14T07:46:16.000Z</published>
+    <updated>2025-05-17T09:04:11.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;meta name=&quot;referrer&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="移动" scheme="https://aaca.eu.org/tags/%E7%A7%BB%E5%8A%A8/"/>
+    
+    <category term="联通" scheme="https://aaca.eu.org/tags/%E8%81%94%E9%80%9A/"/>
+    
+    <category term="电信" scheme="https://aaca.eu.org/tags/%E7%94%B5%E4%BF%A1/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="备份" scheme="https://aaca.eu.org/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+    <category term="考古" scheme="https://aaca.eu.org/tags/%E8%80%83%E5%8F%A4/"/>
+    
+    <category term="微信公众号" scheme="https://aaca.eu.org/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中国十大骨干网 by 野猫行天下</title>
+    <link href="https://aaca.eu.org/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    <id>https://aaca.eu.org/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/</id>
+    <published>2023-07-14T07:42:56.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;meta name=&quot;referrer&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="移动" scheme="https://aaca.eu.org/tags/%E7%A7%BB%E5%8A%A8/"/>
+    
+    <category term="联通" scheme="https://aaca.eu.org/tags/%E8%81%94%E9%80%9A/"/>
+    
+    <category term="电信" scheme="https://aaca.eu.org/tags/%E7%94%B5%E4%BF%A1/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="备份" scheme="https://aaca.eu.org/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+    <category term="考古" scheme="https://aaca.eu.org/tags/%E8%80%83%E5%8F%A4/"/>
+    
+    <category term="微信公众号" scheme="https://aaca.eu.org/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>中国十大骨干网 by 野猫行天下</title>
+    <link href="https://aaca.eu.org/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E7%9F%A5%E4%B9%8E/"/>
+    <id>https://aaca.eu.org/2023/07/14/%E4%B8%AD%E5%9B%BD%E5%8D%81%E5%A4%A7%E9%AA%A8%E5%B9%B2%E7%BD%91%20by%20%E9%87%8E%E7%8C%AB%E8%A1%8C%E5%A4%A9%E4%B8%8B-%E7%9F%A5%E4%B9%8E/</id>
+    <published>2023-07-14T07:42:56.000Z</published>
+    <updated>2025-05-17T09:04:11.401Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;01网络是如何连通的？&quot;&gt;&lt;a href=&quot;#01网络是如何连通的？&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="移动" scheme="https://aaca.eu.org/tags/%E7%A7%BB%E5%8A%A8/"/>
+    
+    <category term="联通" scheme="https://aaca.eu.org/tags/%E8%81%94%E9%80%9A/"/>
+    
+    <category term="电信" scheme="https://aaca.eu.org/tags/%E7%94%B5%E4%BF%A1/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="备份" scheme="https://aaca.eu.org/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+    <category term="考古" scheme="https://aaca.eu.org/tags/%E8%80%83%E5%8F%A4/"/>
+    
+    <category term="知乎" scheme="https://aaca.eu.org/tags/%E7%9F%A5%E4%B9%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>起底三大运营商的前世今生,与后世... by 运营商求职</title>
+    <link href="https://aaca.eu.org/2023/07/14/%E8%B5%B7%E5%BA%95%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F,%E4%B8%8E%E5%90%8E%E4%B8%96...%20by%20%E8%BF%90%E8%90%A5%E5%95%86%E6%B1%82%E8%81%8C/"/>
+    <id>https://aaca.eu.org/2023/07/14/%E8%B5%B7%E5%BA%95%E4%B8%89%E5%A4%A7%E8%BF%90%E8%90%A5%E5%95%86%E7%9A%84%E5%89%8D%E4%B8%96%E4%BB%8A%E7%94%9F,%E4%B8%8E%E5%90%8E%E4%B8%96...%20by%20%E8%BF%90%E8%90%A5%E5%95%86%E6%B1%82%E8%81%8C/</id>
+    <published>2023-07-14T07:33:25.000Z</published>
+    <updated>2025-05-17T09:04:11.402Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;中国通信的改革重组发展史（1949—至今）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1949年11月1日，邮电部成立，从此，新中国也有了统一管理全国邮政和电信事业的国家机构。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;电信竞赛序幕拉开&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1994年</summary>
+        
+      
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+    <category term="移动" scheme="https://aaca.eu.org/tags/%E7%A7%BB%E5%8A%A8/"/>
+    
+    <category term="联通" scheme="https://aaca.eu.org/tags/%E8%81%94%E9%80%9A/"/>
+    
+    <category term="电信" scheme="https://aaca.eu.org/tags/%E7%94%B5%E4%BF%A1/"/>
+    
+    <category term="转载" scheme="https://aaca.eu.org/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+    <category term="备份" scheme="https://aaca.eu.org/tags/%E5%A4%87%E4%BB%BD/"/>
+    
+    <category term="考古" scheme="https://aaca.eu.org/tags/%E8%80%83%E5%8F%A4/"/>
+    
+    <category term="知乎" scheme="https://aaca.eu.org/tags/%E7%9F%A5%E4%B9%8E/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-Theme-Sakura</title>
+    <link href="https://aaca.eu.org/2018/12/12/Hexo-Theme-Sakura/"/>
+    <id>https://aaca.eu.org/2018/12/12/Hexo-Theme-Sakura/</id>
+    <published>2018-12-12T14:16:01.000Z</published>
+    <updated>2025-05-17T09:04:11.400Z</updated>
+    
+    
+    <summary type="html">hexo-sakura主题使用教程</summary>
+    
+    
+    
+    <category term="技术" scheme="https://aaca.eu.org/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="web" scheme="https://aaca.eu.org/tags/web/"/>
+    
+    <category term="悦读" scheme="https://aaca.eu.org/tags/%E6%82%A6%E8%AF%BB/"/>
+    
+  </entry>
+  
+</feed>
